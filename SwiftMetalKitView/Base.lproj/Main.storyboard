@@ -708,7 +708,53 @@
                     <view key="view" id="m2S-Jp-Qdl" customClass="MTKView">
                         <rect key="frame" x="0.0" y="0.0" width="800" height="600"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GdD-dS-oJg">
+                                <rect key="frame" x="232" y="33" width="336" height="540"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="koh-MF-Ef6" customClass="MTKView">
+                                        <rect key="frame" x="1" y="328" width="112" height="212"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    </customView>
+                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r8I-vy-ult" customClass="MTKView">
+                                        <rect key="frame" x="112" y="328" width="112" height="212"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    </customView>
+                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="76Y-7n-BwK" customClass="MTKView">
+                                        <rect key="frame" x="224" y="328" width="112" height="212"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    </customView>
+                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gz2-dY-aGs" customClass="MTKView">
+                                        <rect key="frame" x="0.0" y="212" width="336" height="116"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    </customView>
+                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oD6-tR-inr" customClass="MTKView">
+                                        <rect key="frame" x="1" y="0.0" width="112" height="212"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    </customView>
+                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="riD-0f-ehd" customClass="MTKView">
+                                        <rect key="frame" x="112" y="0.0" width="112" height="212"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    </customView>
+                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="svm-di-rjb" customClass="MTKView">
+                                        <rect key="frame" x="224" y="0.0" width="112" height="212"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    </customView>
+                                </subviews>
+                            </customView>
+                        </subviews>
                     </view>
+                    <connections>
+                        <outlet property="blueView" destination="76Y-7n-BwK" id="ixA-Lh-Ue9"/>
+                        <outlet property="containerView" destination="GdD-dS-oJg" id="dkm-xc-jV6"/>
+                        <outlet property="cyanView" destination="oD6-tR-inr" id="pod-95-cYC"/>
+                        <outlet property="grayView" destination="gz2-dY-aGs" id="csr-mY-lWk"/>
+                        <outlet property="greenView" destination="r8I-vy-ult" id="tN1-uN-LvU"/>
+                        <outlet property="magentaView" destination="riD-0f-ehd" id="3tK-A0-G64"/>
+                        <outlet property="redView" destination="koh-MF-Ef6" id="zyn-NR-c49"/>
+                        <outlet property="yellowView" destination="svm-di-rjb" id="YcF-7l-R5z"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
