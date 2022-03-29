@@ -11,6 +11,7 @@
 		015AD9CD27F36932001E73E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015AD9CC27F36932001E73E6 /* ViewController.swift */; };
 		015AD9CF27F36934001E73E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015AD9CE27F36934001E73E6 /* Assets.xcassets */; };
 		015AD9D227F36934001E73E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015AD9D027F36934001E73E6 /* Main.storyboard */; };
+		015AD9DB27F36DF7001E73E6 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015AD9DA27F36DF7001E73E6 /* MetalRenderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		015AD9CE27F36934001E73E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		015AD9D127F36934001E73E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		015AD9D327F36934001E73E6 /* SwiftMetalKitView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftMetalKitView.entitlements; sourceTree = "<group>"; };
+		015AD9DA27F36DF7001E73E6 /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		015AD9C927F36932001E73E6 /* SwiftMetalKitView */ = {
 			isa = PBXGroup;
 			children = (
+				015AD9D927F36DE1001E73E6 /* Renderer */,
 				015AD9CA27F36932001E73E6 /* AppDelegate.swift */,
 				015AD9CC27F36932001E73E6 /* ViewController.swift */,
 				015AD9CE27F36934001E73E6 /* Assets.xcassets */,
@@ -59,6 +62,14 @@
 				015AD9D327F36934001E73E6 /* SwiftMetalKitView.entitlements */,
 			);
 			path = SwiftMetalKitView;
+			sourceTree = "<group>";
+		};
+		015AD9D927F36DE1001E73E6 /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				015AD9DA27F36DF7001E73E6 /* MetalRenderer.swift */,
+			);
+			path = Renderer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +144,7 @@
 			files = (
 				015AD9CD27F36932001E73E6 /* ViewController.swift in Sources */,
 				015AD9CB27F36932001E73E6 /* AppDelegate.swift in Sources */,
+				015AD9DB27F36DF7001E73E6 /* MetalRenderer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
